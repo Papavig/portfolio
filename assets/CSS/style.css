@@ -208,6 +208,22 @@ a:hover {
     text-decoration: none;
   }
 
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #E4F9F5; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #cccfcf; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #40514E; 
+  }
+
   @media (max-width: 40rem) {
     .con-msg{
         width: 75%;
