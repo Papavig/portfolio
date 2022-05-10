@@ -226,7 +226,7 @@ a:hover {
 }
 
 @media (max-width: 40rem) {
-    ~.con-msg{
+    .con-msg{
         width: 75%;
     }
 }
