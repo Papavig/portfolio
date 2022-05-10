@@ -196,9 +196,9 @@ a:hover {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -206,26 +206,27 @@ a:hover {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-  }
+}
 
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
+::-webkit-scrollbar {
+    width: 8px;
+}
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #E4F9F5; 
-  }
+}
    
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #cccfcf; 
-  }
+    border-radius: 20px;
+}
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #40514E; 
-  }
+}
 
-  @media (max-width: 40rem) {
-    .con-msg{
+@media (max-width: 40rem) {
+    ~.con-msg{
         width: 75%;
     }
-  }
+}
