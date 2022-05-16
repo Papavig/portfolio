@@ -63,18 +63,14 @@ a:hover {
 .infoContainer{
     height: 58vh;
     width: 80vw;
-    margin: 9rem auto;
-    display: flex;
-    justify-content: space-around;
+    margin: 11rem auto;
+    padding-top: 6rem;
+    display: block;
 }
 
 .devInfo{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     font-family: 'Source Code Pro', monospace;
     align-items: flex-start;
-    margin-right: 15.625rem;
     text-align: start;
 }
 
@@ -84,17 +80,18 @@ a:hover {
     color: #06bea6;
     margin-bottom: 0.4rem;
     font-weight: bold;
+    line-height: 1.1;
 }
 
 .name{
-    font-size: 4rem;
+    font-size: clamp(2rem, 10vw, 4rem); 
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
     color: #40514E;
 }
 
 .about{
-    margin-top: 0.4rem;
+    font-size: clamp(1.5rem, 2.5vw, 3rem); 
     font-size: 2.1rem;
     font-family: 'Fira Sans', sans-serif;
     color: #11999E;
@@ -117,7 +114,7 @@ a:hover {
 }
 
 .profile img{
-    max-width: 12%;
+    width: 10%;
 }
 
 .intro {
@@ -225,8 +222,37 @@ a:hover {
     background: #40514E; 
 }
 
-@media (max-width: 40rem) {
+  @media (max-width: 40rem) {
     .con-msg{
         width: 75%;
+    }
+
+    .profile img{
+        width: 30%;
+    }
+
+    .intro{
+        width: 75%;
+    }
+
+    hr{
+        width: 12%;
+    }
+
+    .about{
+        margin-top: 9px;
+        font-size: 26px;
+    }
+
+    body{
+        font-size: 18px;
+    }
+
+    .skill-row h3{
+        width: 52vw;
+    }
+
+    .w-design{
+        width: 20%;
     }
 }
