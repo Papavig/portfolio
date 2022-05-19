@@ -72,6 +72,7 @@ a:hover {
     font-family: 'Source Code Pro', monospace;
     align-items: flex-start;
     text-align: start;
+    margin-left: 4rem;
 }
 
 
@@ -126,7 +127,7 @@ a:hover {
 
 .skill-row{
     width: 50%;
-    margin: 6.25rem auto;
+    margin: 7.25rem auto;
     text-align: left;
     line-height: 2;
 }
@@ -139,6 +140,7 @@ a:hover {
     color: #40514E;
     font-weight: bolder;
     font-family: 'Fira Sans', sans-serif;
+    margin: 0.4rem auto;
 }
 
 .skill-row p{
@@ -239,20 +241,28 @@ a:hover {
         width: 12%;
     }
 
+    .hello{
+        font-size: 1rem;
+    }
+
     .about{
         margin-top: 9px;
         font-size: 26px;
-    }
-
-    body{
-        font-size: 18px;
     }
 
     .skill-row h3{
         width: 52vw;
     }
 
-    .w-design{
-        width: 20%;
+    .skill-row{
+        margin: 6.25rem;
+    }
+
+    .skill-row h3{
+        font-size: 1.5rem;
+    }
+
+    .skill-row p{
+        font-size: 1rem;
     }
 }
